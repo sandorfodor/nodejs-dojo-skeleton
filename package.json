@@ -1,0 +1,15 @@
+{
+  "name": "dojo-skeleton",
+  "version": "1.0.0",
+  "description": "node.js project skeleton for coding dojo",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha",
+    "watch-test": "./node_modules/.bin/mocha --watch"
+  },
+  "author": "Sandor Fodor",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^3.5.0"
+  }
+}
