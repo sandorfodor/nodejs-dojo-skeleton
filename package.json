@@ -5,11 +5,19 @@
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha",
-    "watch-test": "./node_modules/.bin/mocha --watch"
+    "watch-test": "./node_modules/.bin/mocha --watch",
+    "lint": "./node_modules/.bin/eslint **/*.js"
   },
   "author": "Sandor Fodor",
   "license": "ISC",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^4.6.1",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
     "mocha": "^3.5.0"
   }
 }

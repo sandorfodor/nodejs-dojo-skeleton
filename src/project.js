@@ -1,7 +1,7 @@
 class Project {
-    test() {
-        return 1;
-    }
+  test () {
+    return 1
+  }
 }
 
-module.exports = Project;
+module.exports = Project
