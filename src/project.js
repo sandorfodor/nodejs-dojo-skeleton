@@ -4,4 +4,4 @@ class Project {
   }
 }
 
-module.exports = Project
+module.exports = Project;
